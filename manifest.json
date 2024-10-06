@@ -1,0 +1,13 @@
+{
+"manifest_version": 3,
+"name": "SupportSpamBlocker",
+"version": "0.1.0",
+"description": "a extention for Google Chrome",
+"content_scripts": [
+    {
+        "matches": [ "http://*/*", "https://*/*" ],
+        "js": [ "main.js" ]
+    }
+]
+
+}
